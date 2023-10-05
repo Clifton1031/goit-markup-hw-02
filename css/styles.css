@@ -9,6 +9,7 @@
 
 }
 
+/*General Styling*/
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -28,4 +29,5 @@ body {
 
 a {
     text-decoration: ;
-}
+} 
+/* End of General Styling*/
