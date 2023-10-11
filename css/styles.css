@@ -295,33 +295,54 @@ body {
 
 /*PORTFOLIO-STYLE.CSS*/
 /*Portfolio Main Styling*/
-
-.all {
-    color: var(--white);
-    background: var(--ocean);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-.website {
-    color: var(--iris);
-}
-.app {
-    color: var(--iris);
-}
-.design {
-    color: var(--iris);
-}
-
-.marketing {
-    color: var(--iris);
-}
-
+/*ButtonSection*/
 .portfolio-filter {
-    padding: 12 px 24px;
+    padding-top: 180px;
     border-radius: 4px;
     text-align: center;
     font-weight: 500;
     line-height: 1.5;
 }
+
+.all {
+    color: var(--white);
+    background: var(--ocean);
+    width: 69px;
+    height: 48px;
+    padding: 12px 24px;
+    gap: 24px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.website {
+    color: var(--iris);
+    width: 116px;
+    height: 48px;
+    padding: 12px 24px;
+    gap: 24px;
+}
+.app {
+    color: var(--iris);
+    width: 78px;
+    height: 48px;
+    padding: 12px 24px;
+    gap: 24px;
+}
+.design {
+    color: var(--iris);
+    width: 101px;
+    height: 48px;
+    padding: 12px 24px;
+    gap: 24px;
+}
+
+.marketing {
+    color: var(--iris);
+    width: 126px;
+    height: 48px;
+    padding: 12px 24px;
+    gap: 24px;
+}
+
 
 .portfolio-btn {
     border: 1px var(--cornflower);
@@ -329,6 +350,6 @@ body {
 .portfolio-images-jpg {
     list-style: none;
 }
-
+/*End of buttonsection*/
 /*End of Portfolio Main Styling*/
 /*END OF PORTFOLIO-STYLE.CSS*/
