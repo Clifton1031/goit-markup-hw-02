@@ -145,24 +145,22 @@ body {
 /*What we do section*/
 .gadgets-images {
     display: inline-flex;
+    justify-content: center;
+    gap: 24px;
     padding-left: 156px;
-    padding-bottom: 120px;
 }
 
 .desktop-image {
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    padding-right: 12px;
+    
 }
 
 .cellphone-image {
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    padding-right: 12px;
-    padding-left: 12px;
 }
 
 .laptop-image {
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    padding-left: 12px;
 }
 /*End of What we do section*/
 
@@ -180,27 +178,10 @@ body {
     padding-bottom: 120px;
     border-radius: 0px 0px 4px 4px;
     text-align: center;
-    width: 264px;
-    height: 260px;
-}
-.person1{
-    padding-left: 156px;
-    padding-right: 24px;
+    gap: 40px;
+    justify-content: center;
 }
 
-.person2 {
-    padding-right: 12px;
-    padding-right: 24px;
-}
-
-.person3 {
-    padding-right: 12px;
-    padding-right: 24px;
-}
-
-.person4 {
-    padding-right: 156px;
-}
 /*End of Our team*/
 
 /*---------End of Main Section---------*/
@@ -296,12 +277,17 @@ body {
 /*PORTFOLIO-STYLE.CSS*/
 /*Portfolio Main Styling*/
 /*ButtonSection*/
+
+main {
+    justify-content: center;
+}
 .portfolio-filter {
-    padding-top: 180px;
+    padding-top: 96px;
     border-radius: 4px;
     text-align: center;
     font-weight: 500;
     line-height: 1.5;
+    
 }
 
 .all {
@@ -309,47 +295,44 @@ body {
     background: var(--ocean);
     width: 69px;
     height: 48px;
-    padding: 12px 24px;
-    gap: 24px;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .website {
     color: var(--iris);
     width: 116px;
     height: 48px;
-    padding: 12px 24px;
-    gap: 24px;
+
 }
 .app {
     color: var(--iris);
     width: 78px;
     height: 48px;
-    padding: 12px 24px;
-    gap: 24px;
 }
 .design {
     color: var(--iris);
     width: 101px;
     height: 48px;
-    padding: 12px 24px;
-    gap: 24px;
 }
 
 .marketing {
     color: var(--iris);
     width: 126px;
     height: 48px;
-    padding: 12px 24px;
-    gap: 24px;
 }
 
 
 .portfolio-btn {
     border: 1px var(--cornflower);
 }
-.portfolio-images-jpg {
+/*End of buttonsection*/
+
+/*Portfolio Images*/
+ul {
+    display: inline-flex;
+    gap: 24px;
     list-style: none;
 }
-/*End of buttonsection*/
+/*End of Portfolio Images*/
+
 /*End of Portfolio Main Styling*/
 /*END OF PORTFOLIO-STYLE.CSS*/
