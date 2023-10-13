@@ -282,14 +282,19 @@ main {
     justify-content: center;
 }
 .portfolio-filter {
-    padding-top: 96px;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
     border-radius: 4px;
-    text-align: center;
     font-weight: 500;
     line-height: 1.5;
-    
+    gap: 24px;
 }
 
+.container-btn {
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
 .all {
     color: var(--white);
     background: var(--ocean);
@@ -331,6 +336,37 @@ ul {
     display: inline-flex;
     gap: 24px;
     list-style: none;
+}
+
+.container {
+    width: 1440px;
+
+}
+
+.portfolio-images-top {
+    padding-left: 156px;
+
+}
+
+.portfolio-images-mid {
+    padding-left: 156px;
+}
+
+.portfolio-images-btm {
+    padding-left: 156px;
+}
+
+.protfolio-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+
+.portfolio-subtitle{
+    font-family: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 /*End of Portfolio Images*/
 
